@@ -1,3 +1,4 @@
+![slzndjga](https://user-images.githubusercontent.com/44570304/48204391-02558e00-e36a-11e8-9928-146cc7f08f21.jpeg)
 **Introduction**
 
 The Quick start guide shows how to quickly test with Hubject openPlugnCharge as an OEM, CPO, MO or anyone who wants to evaluate the ISO 15118 plug and charge use case.
