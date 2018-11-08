@@ -1,19 +1,19 @@
 ![slzndjga](https://user-images.githubusercontent.com/44570304/48204391-02558e00-e36a-11e8-9928-146cc7f08f21.jpeg)
 **Introduction**
 
-The Quick start guide shows how to quickly test with Hubject openPlugnCharge as an OEM, CPO, MO or anyone who wants to evaluate the ISO 15118 plug and charge use case.
+The Quick start guide shows how to quickly test with Hubject Open Plug&Charge as an OEM, CPO, MO or anyone who wants to evaluate the ISO 15118 plug and charge use case.
 
-For testing the interfaces of Plug and Charge Systems, a Postman collection is provided, which includes all interfaces of the openPlugnCharge system. Use the provided JSOn collection to an API development environment.
+For testing the interfaces of Plug and Charge Systems, a Postman collection is provided, which includes all interfaces of the Open Plug&Charge system. Use the provided JSOn collection to an API development environment.
 
 For reference, The Postman is a free tool ([https://www.getpostman.com/](https://www.getpostman.com/)).
 
-In the Test-Stage of openPlugnCharge no authentication will be necessary.
+In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 
 **Important**
 
-- Use this data, info only for testing openPlugnCharge environment.
-- This test data should only be used for the understanding the functionality of openPlugnCharge environment.
-- The openPlugnCharge only provides basic functionalities of a larger ecosystem
+- Use this data, info only for testing Open Plug&Charge environment.
+- This test data should only be used for the understanding the functionality of Open Plug&Charge environment.
+- The Open Plug&Charge only provides basic functionalities of a larger ecosystem
 - All provided data are created only for this specific purpose, and are dummy information
 - If you see the usage of this data for any purpose other than testing, please contact the Hubject administrator
 
