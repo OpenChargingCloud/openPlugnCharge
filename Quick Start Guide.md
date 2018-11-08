@@ -1,13 +1,12 @@
-![slzndjga](https://user-images.githubusercontent.com/44570304/48204391-02558e00-e36a-11e8-9928-146cc7f08f21.jpeg)
 **Introduction**
 
-The Quick start guide shows how to quickly test with Hubject Open PlugnCharge as an OEM, CPO, MO or anyone who wants to evaluate the ISO 15118 plug and charge use case. In the Provisioning Certificate Pool (PCP), vehicle certificates of OEMs are stored.
+The Quick start guide shows how to quickly test with Hubject openPlugnCharge as an OEM, CPO, MO or anyone who wants to evaluate the ISO 15118 plug and charge use case.
 
 For testing the interfaces of Plug and Charge Systems, a Postman collection is provided, which includes all interfaces of the openPlugnCharge system. Use the provided JSOn collection to an API development environment.
 
 For reference, The Postman is a free tool ([https://www.getpostman.com/](https://www.getpostman.com/)).
 
-In the Test-Stage of Open PlugnCharge no authentication will be necessary.
+In the Test-Stage of openPlugnCharge no authentication will be necessary.
 
 **Important**
 
@@ -27,19 +26,17 @@ In the Test-Stage of Open PlugnCharge no authentication will be necessary.
 
 Fill in the attributes in the window below (with the data provided in certificates)
 
-{&quot;rootAuthorityKeyIdentifier&quot;:&quot;&quot;,
-
- &quot;rootIssuerDistinguishedName&quot;:&quot;&quot;,
-
-   &quot;rootIssuerSerialNumber&quot;: &quot;&quot;,
-
-   &quot;subCA1Certificate&quot;: &quot;&quot;,
-
-  &quot;subCA2Certificate&quot;: &quot;&quot;,
-
- &quot;vehicleCertificate&quot;: &quot;&quot;
-
+```
+{"rootAuthorityKeyIdentifier":"",
+ "rootIssuerDistinguishedName":"",
+   "rootIssuerSerialNumber": "",
+   "subCA1Certificate": "",
+  "subCA2Certificate": "",
+ "vehicleCertificate": ""
 }
+
+
+```
 
 - After successful storing of OEM provisioning certificate, the system will send the http response &quot;201&quot;.
 
@@ -68,29 +65,20 @@ The **createAndForwardSignedContractData** interface signs the **contractData** 
 
 Fill in the attributes in the window below (with the data provided in certificates)
 
-{ &quot;xsdMsgDefNamespace&quot;: &quot;&quot;,
-
- &quot;contractData&quot;:{
-
- &quot;emaid&quot;:&quot;&quot;,
-
- &quot;contractSignatureCertChain&quot;:{
-
-&quot;contractSignatureCertChainSubCertificates&quot;: [
-
- &quot;&quot;,
-
-  &quot;&quot;   ],
-
-&quot;contractSignatureCertChainCertificate&quot;: &quot;&quot; },
-
- &quot;contractSignatureEncryptedPrivateKey&quot;: &quot;&quot;,
-
-&quot;dHpublickey&quot;: &quot;&quot;
-
- }
-
+```
+{ "xsdMsgDefNamespace": "", 
+ "contractData":{ 
+ "emaid":"", 
+ "contractSignatureCertChain":{   
+"contractSignatureCertChainSubCertificates": [ 
+ "", 
+  ""   ], 
+"contractSignatureCertChainCertificate": "" }, 
+ "contractSignatureEncryptedPrivateKey": "", 
+"dHpublickey": "" 
+ } 
 }
+ ```
 
 
 
@@ -106,12 +94,12 @@ Fill in the attributes in the window below (with the data provided in certificat
 
 **POST /HubjectWS/webresources/v1/ccp/signedContractData**
 
+```
 {
-
- &quot;certificateInstallationReq&quot;: &quot;&quot;,
-
-&quot;xsdMsgDefNamespace&quot;: &quot;&quot;
-
+ "certificateInstallationReq": "",
+"xsdMsgDefNamespace": ""
 }
+
+```
 
 The request must be an **certificateInstallationRequest** , as defined in ISO 15118. In the response, the CCP delivers all available contracts of the vehicle.
