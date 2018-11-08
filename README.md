@@ -1,15 +1,15 @@
 ![hubject](https://user-images.githubusercontent.com/44570304/48123837-3900ab00-e27b-11e8-9c03-4602f6e02291.png)
-## **HUBJECT openPlugnCharge**
+## **HUBJECT Open Plug&Charge**
 
 ## **Introduction**
 
-The Hubject openPlugnCharge enables OEMs, Mobility Operators and Charge Point Operators to use the ISO 15118 standard.
+The Hubject Open Plug&Charge enables OEMs, Mobility Operators and Charge Point Operators to use the ISO 15118 standard.
 
-The openPlugnCharge provides a V2G root CA for the managing of the ISO 15118 certificates and pools for publishing and signing service for trusted exchange. The root certificate of the Hubject V2G Root CA is the trust anchor for all participants of ISO 15118, which is published in the Root Certificate Pool of Hubject.
+The Open Plug&Charge provides a V2G root CA for the managing of the ISO 15118 certificates and pools for publishing and signing service for trusted exchange. The root certificate of the Hubject V2G Root CA is the trust anchor for all participants of ISO 15118, which is published in the Root Certificate Pool of Hubject.
 
 The interfaces of this service are fully compatible with ISO 15118-2: 2014 and the VDE application rule (&quot;VDE Anwendungsregel&quot;), to make the platform interoperable for all relaying parties.
 
-In this service, Hubject Open PlugnCharge provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO15118 party&#39;s.
+In this service, Hubject Open Plug&Chargee provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO15118 party&#39;s.
 
 ## **System Components**
 
