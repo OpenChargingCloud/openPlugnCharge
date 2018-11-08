@@ -1,4 +1,3 @@
-
 ![hubject](https://user-images.githubusercontent.com/44570304/48123837-3900ab00-e27b-11e8-9c03-4602f6e02291.png)
 ## **HUBJECT openPlugnCharge**
 
@@ -103,15 +102,16 @@ After the verifying the authenticity of trust chain with OEM root certificate (w
 
 The created contract data must be sent to the CPS for signing purposes.
 
-There are to possibilities for MOs, signing and storing of contract data in the CCP, or after signing receiving the signed contract data back.
-
 ![fig6](https://user-images.githubusercontent.com/44570304/48124007-97c62480-e27b-11e8-94e2-89a29dd6c6f1.png)Figure 6 – Providing contract data to certificate Provisioning Service
 
 **Signing Contract Data and Storing in CCP**
 
-The CPS signs the delivered contract data with from V2G root CA derived private key and either stores it in the CCPS for provisioning for the CPO- and OEM-backend, or sends back to the MO.
+The CPS signs the delivered contract data with from V2G root CA derived private key and stores it in the CCPS for provisioning for the CPO.
 
-![fig7](https://user-images.githubusercontent.com/44570304/48124034-a44a7d00-e27b-11e8-91d0-61e4f88e30ec.png)Figure 7 – Signing contract data and storing in CCP
+![fig7](https://user-images.githubusercontent.com/44570304/48203923-f2897a00-e368-11e8-8a39-38d26d52b5d0.png)
+Figure 7 – Signing contract data and storing in CCP
+
+
 
 **Providing Signed Contract Data to CPO-Backend on Request**
 
@@ -119,7 +119,7 @@ After a successful handshake between EV and charging device, the EV sends a cert
 
 The CCP finds the contracts of this EV, verifies the validity of each certificate and delivers it back to the CPO backend.
 
-![fig9](https://user-images.githubusercontent.com/44570304/48124060-b9271080-e27b-11e8-94d7-f12981db8169.png)Figure 8 – Providing signed contract data to CPO backend on request
+![fig9](https://user-images.githubusercontent.com/44570304/48124060-b9271080-e27b-11e8-94d7-f12981db8169.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
 
 ## **More Information**
 
