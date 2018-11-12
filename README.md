@@ -106,7 +106,9 @@ Figure 5 – Conclusion of contract and receiving vehicle certificate from vehic
 
 The created contract data must be sent to the CPS for signing purposes.
 
-![fig6](https://user-images.githubusercontent.com/44570304/48353784-8a040b00-e690-11e8-9a27-7b4f87622503.png)Figure 6 – Providing contract data to certificate Provisioning Service
+![fig6](https://user-images.githubusercontent.com/44570304/48353784-8a040b00-e690-11e8-9a27-7b4f87622503.png)
+
+Figure 6 – Providing contract data to certificate Provisioning Service
 
 **Signing Contract Data and Storing in CCP**
 
