@@ -81,7 +81,8 @@ The customers must also receive the PCID of their vehicles to give it to the MOs
 
 The required V2G root certificates must also be stored in vehicle for the trusted communication with charging devices and verifying contract data.
 
-![fig4](https://user-images.githubusercontent.com/44570304/48353764-84a6c080-e690-11e8-9dfa-9401822a399d.png)Figure 4 – Production of vehicles and storing provisioning certificate
+![fig4](https://user-images.githubusercontent.com/44570304/48353764-84a6c080-e690-11e8-9dfa-9401822a399d.png)
+Figure 4 – Production of vehicles and storing provisioning certificate
 
 **Conclusion of Contract and Receiving Vehicle Certificate from PCP**
 
@@ -96,7 +97,8 @@ After the verifying the authenticity of trust chain with OEM root certificate (w
 - contractSignatureEncryptedPrivateKey,
 - EMAID
 
-![fig5](https://user-images.githubusercontent.com/44570304/48353776-87a1b100-e690-11e8-884d-9aae45382d68.png)Figure 5 – Conclusion of contract and receiving vehicle certificate from vehicle Certificate Pool
+![fig5](https://user-images.githubusercontent.com/44570304/48353776-87a1b100-e690-11e8-884d-9aae45382d68.png)
+Figure 5 – Conclusion of contract and receiving vehicle certificate from vehicle Certificate Pool
 
 **Providing Contract Data to Certificate Provisioning Service**
 
