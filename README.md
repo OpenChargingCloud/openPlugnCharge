@@ -45,7 +45,7 @@ The VDE Application Rule details each process flow for further understanding. Fi
 
 During contract provisioning, several sub processes are also required, which can be divided into four main parts (see Figure 2 – Process map).
 
-![fig2](https://user-images.githubusercontent.com/44570304/48123929-6b120d00-e27b-11e8-9a8d-ba74449f7de9.png)Figure 2 – Process map
+![fig2](https://user-images.githubusercontent.com/44570304/48353749-7fe20c80-e690-11e8-8782-5d7b7dba7611.png)Figure 2 – Process map
 
 The VDE Application Rule proposes the following sub processes.
 
@@ -69,7 +69,7 @@ The VDE Application Rule proposes the following sub processes.
 
 The mutual trust between participants is a precondition for ISO 15118. For this purpose, a root certificate pool provided for the of all root certificates. Each participant can receive the root certificates of other participants to validate the trust chain of each certificate.
 
-![fig3](https://user-images.githubusercontent.com/44570304/48123947-749b7500-e27b-11e8-8acb-31a4e920e18e.png)Figure 3 – Providing root certificates for public charging and contract-based billing
+![fig3](https://user-images.githubusercontent.com/44570304/48353758-82dcfd00-e690-11e8-8e9e-24a4b357fa5b.png)Figure 3 – Providing root certificates for public charging and contract-based billing
 
 
 
@@ -81,7 +81,7 @@ The customers must also receive the PCID of their vehicles to give it to the MOs
 
 The required V2G root certificates must also be stored in vehicle for the trusted communication with charging devices and verifying contract data.
 
-![fig4](https://user-images.githubusercontent.com/44570304/48123966-80873700-e27b-11e8-8020-522bd5b58934.png)Figure 4 – Production of vehicles and storing provisioning certificate
+![fig4](https://user-images.githubusercontent.com/44570304/48353764-84a6c080-e690-11e8-9dfa-9401822a399d.png)Figure 4 – Production of vehicles and storing provisioning certificate
 
 **Conclusion of Contract and Receiving Vehicle Certificate from PCP**
 
@@ -96,19 +96,19 @@ After the verifying the authenticity of trust chain with OEM root certificate (w
 - contractSignatureEncryptedPrivateKey,
 - EMAID
 
-![fig5](https://user-images.githubusercontent.com/44570304/48123992-8da42600-e27b-11e8-99d0-0fd72d4c2ef5.png)Figure 5 – Conclusion of contract and receiving vehicle certificate from vehicle Certificate Pool
+![fig5](https://user-images.githubusercontent.com/44570304/48353776-87a1b100-e690-11e8-884d-9aae45382d68.png)Figure 5 – Conclusion of contract and receiving vehicle certificate from vehicle Certificate Pool
 
 **Providing Contract Data to Certificate Provisioning Service**
 
 The created contract data must be sent to the CPS for signing purposes.
 
-![fig6](https://user-images.githubusercontent.com/44570304/48124007-97c62480-e27b-11e8-94e2-89a29dd6c6f1.png)Figure 6 – Providing contract data to certificate Provisioning Service
+![fig6](https://user-images.githubusercontent.com/44570304/48353784-8a040b00-e690-11e8-9a27-7b4f87622503.png)Figure 6 – Providing contract data to certificate Provisioning Service
 
 **Signing Contract Data and Storing in CCP**
 
 The CPS signs the delivered contract data with from V2G root CA derived private key and stores it in the CCPS for provisioning for the CPO.
 
-![fig7](https://user-images.githubusercontent.com/44570304/48203923-f2897a00-e368-11e8-8a39-38d26d52b5d0.png)
+![fig7](https://user-images.githubusercontent.com/44570304/48353790-8c666500-e690-11e8-91ef-73a76deb0e88.png)
 Figure 7 – Signing contract data and storing in CCP
 
 
@@ -119,7 +119,7 @@ After a successful handshake between EV and charging device, the EV sends a cert
 
 The CCP finds the contracts of this EV, verifies the validity of each certificate and delivers it back to the CPO backend.
 
-![fig9](https://user-images.githubusercontent.com/44570304/48124060-b9271080-e27b-11e8-94d7-f12981db8169.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
+![fig9](https://user-images.githubusercontent.com/44570304/48353796-90928280-e690-11e8-8456-0f8845965356.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
 
 ## **More Information**
 
