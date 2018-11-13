@@ -1,0 +1,7 @@
+curl --request POST \
+  --url https://api.openpnc.com/HubjectWS/webresources/v1/ccp/signedContractData \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "certificateInstallationReq": "",
+  "xsdMsgDefNamespace": "urn:iso:15118:2:2013:MsgDef"
+}'
