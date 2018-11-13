@@ -1,0 +1,20 @@
+curl --request PUT \
+  --url https://api.openpnc.com/HubjectWS/webresources/v1/cps/forward/signedContractData \
+  --header 'Content-Type: application/json' \
+  --data '{ 
+  "xsdMsgDefNamespace": "urn:iso:15118:2:2013:MsgDef", 
+  "pcid":"",
+    "emaid":"",
+  "contractData":{ 
+     "emaid":"",
+    "contractSignatureCertChain":{   
+      "contractSignatureCertChainSubCertificates": [ 
+          "", 
+          "" 
+          ], 
+          "contractSignatureCertChainCertificate": "" 
+        }, 
+          "contractSignatureEncryptedPrivateKey": "", 
+          "dHpublickey": "" 
+    } 
+}'
