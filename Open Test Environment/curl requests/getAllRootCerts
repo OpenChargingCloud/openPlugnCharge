@@ -1,0 +1,2 @@
+curl --request GET \
+  --url https://api.openpnc.com/HubjectWS/webresources/v1/root/rootCerts
