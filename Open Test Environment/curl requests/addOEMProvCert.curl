@@ -1,0 +1,13 @@
+curl --request PUT \
+  --url https://api.openpnc.com/HubjectWS/webresources/v1/oem/provCerts \
+  --header 'Content-Type: application/json' \
+  --data '{
+        "rootAuthorityKeyIdentifier":"",
+        "rootIssuerDistinguishedName":"",
+        "rootIssuerSerialNumber": "",
+        "subCA1Certificate": "",
+        "subCA2Certificate": "",
+        "vehicleCertificate": ""
+}
+
+'
