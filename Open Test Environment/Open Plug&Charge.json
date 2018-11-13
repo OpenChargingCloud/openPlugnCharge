@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "673831b1-980e-4c1d-8f54-fed43e5940ba",
+		"_postman_id": "796c76b1-6592-4300-b2d0-74e21b8fe009",
 		"name": "open Plug&Charge",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -189,39 +189,6 @@
 			"name": "CertificateProvisioningService",
 			"item": [
 				{
-					"name": "createSignedContractData",
-					"request": {
-						"method": "PUT",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{ \r\n  \"xsdMsgDefNamespace\": \"urn:iso:15118:2:2013:MsgDef\", \r\n  \"contractData\":{ \r\n  \"emaid\":\"\", \r\n    \"contractSignatureCertChain\":{   \r\n      \"contractSignatureCertChainSubCertificates\": [ \r\n          \"\", \r\n          \"\" \r\n          ], \r\n          \"contractSignatureCertChainCertificate\": \"\" \r\n        }, \r\n          \"contractSignatureEncryptedPrivateKey\": \"\", \r\n          \"dHpublickey\": \"\" \r\n    } \r\n}"
-						},
-						"url": {
-							"raw": "https://api.openpnc.com/HubjectWS/webresources/v1/cps/signedContractData",
-							"protocol": "https",
-							"host": [
-								"api",
-								"openpnc",
-								"com"
-							],
-							"path": [
-								"HubjectWS",
-								"webresources",
-								"v1",
-								"cps",
-								"signedContractData"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "createAndForwardSignedContractData",
 					"request": {
 						"method": "PUT",
@@ -260,39 +227,6 @@
 		{
 			"name": "ContractCertificatePool",
 			"item": [
-				{
-					"name": "addSignedContractData",
-					"request": {
-						"method": "PUT",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n  \"xsdMsgDefNamespace\": \"urn:iso:15118:2:2013:MsgDef,\r\n  \"pcid\": \"\",\r\n  \"emaid\": \"\",\r\n  \"metaData\":\"\",\r\n  \"signedContractData\": \"\"\r\n}"
-						},
-						"url": {
-							"raw": "https://api.openpnc.com/HubjectWS/webresources/v1/ccp/signedContractData",
-							"protocol": "https",
-							"host": [
-								"api",
-								"openpnc",
-								"com"
-							],
-							"path": [
-								"HubjectWS",
-								"webresources",
-								"v1",
-								"ccp",
-								"signedContractData"
-							]
-						}
-					},
-					"response": []
-				},
 				{
 					"name": "deleteSignedContractData",
 					"request": {
