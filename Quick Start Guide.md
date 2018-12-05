@@ -29,12 +29,13 @@ In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 Fill in the attributes in the window below (with the data provided in certificates)
 
 ```
-{"rootAuthorityKeyIdentifier":"",
- "rootIssuerDistinguishedName":"",
+{
+  "rootAuthorityKeyIdentifier":"",
+  "rootIssuerDistinguishedName":"",
    "rootIssuerSerialNumber": "",
-   "subCA1Certificate": "",
+  "subCA1Certificate": "",
   "subCA2Certificate": "",
- "vehicleCertificate": ""
+  "vehicleCertificate": ""
 }
 
 
