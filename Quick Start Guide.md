@@ -26,7 +26,7 @@ In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 
 - After installing the API (either Postman or Insomnia), it is important to check if the workspace allows for testing with test V2G Root. If not, go to settings and turn OFF the option of **SSL Verification Check**
 
-- Save the JSON collection (of interfaces) ([JSON Collection](https://github.com/hubject/openPlugnCharge/tree/master/Open%20Test%20Environment)) to your local drive 
+- Save the open Plug&Charge JSON collection (of interfaces) ([JSON Collection](https://github.com/hubject/openPlugnCharge/tree/master/Open%20Test%20Environment)) to your local drive 
 
 - Import the JSON to the api environment for Open Plug&Charge testing
 
