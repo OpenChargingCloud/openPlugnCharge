@@ -3,7 +3,7 @@
 
 The Quick start guide shows the easy steps to test with Hubject Open Plug&Charge as an OEM, CPO, MO or any enthusiast wanting to get a feel of the ISO 15118 Plug&Charge use case with Hubject's platform.
 
-The Plug&Charge ecosystem involves exchange of interfaces to perfoem actions on different certificate pools. (Please go back to Readme if you haven't already).
+The Plug&Charge ecosystem involves exchange of interfaces to perform actions on different certificate pools as stated in the Readme. (Please go back to  ([Readme](https://github.com/hubject/openPlugnCharge/edit/master/README.md)) if you haven't already).
 
 For testing the interfaces of Plug&Charge Systems, a JSON collection is provided, which includes all interfaces of the Open Plug&Charge system. Use the provided JSON collection ([JSON Collection](https://github.com/hubject/openPlugnCharge/blob/master/Open%20Test%20Environment/Open%20Plug%26Charge.json))  to an API development environment (Post Man or Insomnia).
 
