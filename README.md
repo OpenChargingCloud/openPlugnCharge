@@ -132,7 +132,7 @@ The CCP finds the contracts of this EV, verifies the validity of each certificat
 
 ## **Ready to Kickstart**
 Now that you have read the components and processes involved in Plug&Charge, you must be now ready to get a feel of being a part of it.
-The Open Plug&Charge will be the start of your journey to the world of ISO 15118. Click on the [Quick Start Guide] (https://github.com/hubject/openPlugnCharge/blob/master/Quick%20Start%20Guide.md)) to get more details on the steps to use the Open Plug& Charge.
+The Open Plug&Charge will be the start of your journey to the world of ISO 15118. Click on the [Quick Start Guide] (https://github.com/hubject/openPlugnCharge/blob/master/Open%20Test%20Environment/Open%20Plug%26Charge.json)) to get more details on the steps to use the Open Plug& Charge.
 
 ## **More Information**
 
