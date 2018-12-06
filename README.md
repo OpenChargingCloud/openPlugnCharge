@@ -7,11 +7,11 @@ The Hubject Open Plug&Charge is an open to all platform, which enables all e-mob
 
 In this readme, we describe the processes involved and the componenets required to operate according to the VDE application guide (&quot;VDE Anwendungsregel&quot;) on ISO 15118.
 
-At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  certificate pools for publishing and signing service for trusted exchange.
+At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  Certificate Pools for publishing and signing service for trusted exchange.
 
-The interfaces of this service are fully compatible with ISO 15118-2: 2014 and the VDE application rule (&quot;VDE Anwendungsregel&quot;), to make the platform interoperable for all relaying parties.
+The exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, make the platform interoperable for all relaying parties.
 
-In this service, Hubject Open Plug&Chargee provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO15118 party&#39;s.
+Hubjec Plug&Charge solution provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO15118 party&#39;s.
 
 ## **System Components**
 
