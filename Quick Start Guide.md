@@ -24,6 +24,10 @@ In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 
 **Step 1:**
 
+- After installing the API (either Postman or Insomnia), it is important to check if the workspace allows for testing with test V2G Root. If not, go to settings and turn OFF the option of **SSL Verification Check**
+
+-
+
 - As in the &quot;VDE Application Guide&quot; described, the first step will be the storage of the OEM provisioning certificate in the Provisioning Certificate Pool (PCP). For storing your vehicle OEM provisioning certificate, you must use the **addOEMProvCert** interface.
 
 **PUT /HubjectWS/webresources/v1/oem/provCerts**
