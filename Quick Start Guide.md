@@ -14,9 +14,9 @@ In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 
 **Important**
 
-- Use this data, info only for testing Open Plug&Charge environment.
-- This test data should only be used for the understanding the functionality of Open Plug&Charge environment.
-- The Open Plug&Charge only provides basic functionalities of a larger ecosystem.
+- Use this data, info only for testing Open Plug&Charge environment
+- This test data should only be used for the understanding the functionality of Open Plug&Charge environment
+- The Open Plug&Charge only provides basic functionalities of a larger ecosystem
 - All provided data are created only for this specific purpose, and are dummy information
 - If you see the usage of this data for any purpose other than testing, please contact the Hubject administrator
 
@@ -26,7 +26,9 @@ In the Test-Stage of Open Plug&Charge no authentication will be necessary.
 
 - After installing the API (either Postman or Insomnia), it is important to check if the workspace allows for testing with test V2G Root. If not, go to settings and turn OFF the option of **SSL Verification Check**
 
--
+- Save the JSON collection (of interfaces) ([JSON Collection](https://github.com/hubject/openPlugnCharge/blob/master/Open%20Test%20Environment/Open%20Plug%26Charge.json)) to your local drive 
+
+- Import the JSON to the api environment for Open Plug&Charge testing
 
 - As in the &quot;VDE Application Guide&quot; described, the first step will be the storage of the OEM provisioning certificate in the Provisioning Certificate Pool (PCP). For storing your vehicle OEM provisioning certificate, you must use the **addOEMProvCert** interface.
 
@@ -38,7 +40,7 @@ Fill in the attributes in the window below (with the data provided in certificat
 {
   "rootAuthorityKeyIdentifier":"",
   "rootIssuerDistinguishedName":"",
-   "rootIssuerSerialNumber": "",
+  "rootIssuerSerialNumber": "",
   "subCA1Certificate": "",
   "subCA2Certificate": "",
   "vehicleCertificate": ""
