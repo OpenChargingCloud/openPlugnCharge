@@ -130,6 +130,10 @@ The CCP finds the contracts of this EV, verifies the validity of each certificat
 
 ![fig9](https://user-images.githubusercontent.com/44570304/48353796-90928280-e690-11e8-8456-0f8845965356.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
 
+**Ready to Kickstart**
+Now that you have read the components and processes involved in Plug&Charge, you must be now ready to get a feel of being a part of it.
+The Open Plug&Charge will be the start of your journey to the world of ISO 15118. Click on the Quick 
+
 ## **More Information**
 
 The immense potential of Plug &amp; Charge becoming a common and user-friendly standard within the field of eMobility is highly dependent on a well-functioning ISO 15118 ecosystem, in which every participant possesses the technical and operational capabilities to play an active and value-adding role. Due to this fact, Hubject has decided not only to offer pure PKI services in the market, but also to support organizations on their way towards becoming a player within the ISO 15118 ecosystem. Knowledge transfer as well as strategic and operational support come in the form of workshops or consulting projects.
