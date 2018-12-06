@@ -3,7 +3,9 @@
 
 ## **Introduction**
 
-The Hubject Open Plug&Charge enables OEMs, Mobility Operators and Charge Point Operators to use the ISO 15118 standard.
+The Hubject Open Plug&Charge is an open to all platform, which enables all e-mobility enthusisast including OEMs, Mobility Operators and Charge Point Operators to get a feel of using Hubject's Plug&Charge solution in adherence to the ISO 15118 standard.
+
+In this readme, we describe the processes involved and the componenets required to operate according to the VDE application guide on ISO 15118.
 
 The Open Plug&Charge provides a V2G root CA for the managing of the ISO 15118 certificates and pools for publishing and signing service for trusted exchange. The root certificate of the Hubject V2G Root CA is the trust anchor for all participants of ISO 15118, which is published in the Root Certificate Pool of Hubject.
 
