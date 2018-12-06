@@ -11,7 +11,7 @@ At the pinnacle of the Plug&charge solution, lies the V2G Root certificate autho
 
 The exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, make the platform interoperable for all relaying parties.
 
-Hubjec Plug&Charge solution provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO15118 party&#39;s.
+Hubjec Plug&Charge solution provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO 15118 participants.
 
 ## **System Components**
 
@@ -43,7 +43,7 @@ The CCP keeps contracts of each MO separate. The defined access rules prevent ac
 
 The VDE Application Rule details each process flow for further understanding. Figure 1 shows the overall process with components and flows, which are based on the VDE Application Rule.
 
-![fig1](https://user-images.githubusercontent.com/44570304/48123862-47e75d80-e27b-11e8-9c06-3223e0ccd6b5.png)Figure 1 – The process of an optimized PKI for the Plug &amp; Charge
+Figure 1 – The process of an optimized PKI for the Plug &amp; Charge
 
 During contract provisioning, several sub processes are also required, which can be divided into four main parts (see Figure 2 – Process map).
 
