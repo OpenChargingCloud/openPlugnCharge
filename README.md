@@ -3,7 +3,7 @@
 
 ## **Introduction**
 Welcome to Open Plug&Charge, an open platform to be acquainted to Hubject's Plug&Charge product.
-If you here, it is because you are in someway connected to an EV. You could be part of an OEM, a Charge Point Operator, an e-mobility Partner or operator, an EV driver or just an e-mobility enthusiast.  
+## If you here, it is because you are in someway connected to an EV. You could be part of an OEM, a Charge Point Operator, an e-mobility Partner or operator, an EV driver or just an e-mobility enthusiast.  
 No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just be following easy steps.
 
 The Hubject Open Plug&Charge is an open to all platform, which enables all e-mobility enthusisast including OEMs, Mobility Operators and Charge Point Operators to get a feel of using Hubject's Plug&Charge solution in adherence to the ISO 15118 standard.
