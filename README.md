@@ -23,22 +23,25 @@ The next chapter would define the different pools and processes involved in Hubj
 
 #### Pools and Services
 
+
+
+
 #### Root Certificate Pool – RCP
 
 
-The Root Certificate Pool is used for communication between the Root Certificate Pool and the various Certificate Authorities of ISO 15118 participants (V2G, OEM, MO).
-
- The stored root certificates are checked regularly with automated processes and expired or revoked certificates are deleted. The storage of root certificates executed manually by Hubject administrators.
+The Root Certificate Pool contains all the Root certificates in one location maintained by Hubject. The pool is used for access of Root certificates which enables validation of certificate chains and authentication of identity by exchange of interfaces, during communication between different participants (V2G, OEM, MO) of ISO 15118.
+The stored root certificates are checked regularly with automated processes and expired or revoked certificates are deleted. 
+The storage of root certificates executed manually by Hubject administrators.
 
 #### Provisioning Certificate Pool – PCP
 
-The Provisioning Certificate Pool (PCP) Service provides interfaces to exchange provisioning certificates between OEMs and MOs. For this purpose, MOs send the PCID of a provisioning certificate issued by the OEM and receives the appropriate provisioning certificate and the corresponding sub-CA certificate chain.
-
-Certificates will be checked regularly with automated processes and removed.
+The Provisioning Certificate Pool (PCP) contains all the Vehicle Provisional certificates. These certificates are stored by the OEM and are accessible to different participants (OEMs and MOs) of ISO 15118 through interface exchanges.The MOs send the PCID of a provisioning certificate issued by the OEM and receives the appropriate provisioning certificate and the corresponding sub-CA certificate chain.
+Certificates are checked regularly with automated processes and removed.
 
 #### Certificate Provisioning Service - CPS
 
-The CPS provides interfaces for signing contract data of MOs. MOs can provide a contract data to sign in CPS. The signed contract data are stored in the CCP.
+The CPS provides interfaces for signing contract data of MOs. Signing of MO contract data is important for security reasons, as this certificate should only be opened by the EV.
+The signed contract data are stored in the contact certificate pool.
 
 #### Contract Certificate Pool – CCP
 
