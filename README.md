@@ -8,15 +8,16 @@ If you here, it is because you are in someway connected to an e-mobility. You co
 
 No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just be following easy steps.
 
-The Hubject Open Plug&Charge is an open to all platform, which enables all e-mobility enthusisast including OEMs, Mobility Operators and Charge Point Operators to get a feel of using Hubject's Plug&Charge solution in adherence to the ISO 15118 standard.
+ISO 15118 standard is a technical standard that provides the necessay information exchange between the EV and the charging infrastructure
 
-In this readme, we describe the processes involved and the componenets required to operate according to the VDE application guide (&quot;VDE Anwendungsregel&quot;) on ISO 15118.
+Hubjects processes and components, which will be described in detail later, are compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
 
 At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  Certificate Pools for publishing and signing service for trusted exchange.
+The role of the pools is to store certificates (vehicle provisional, contract), making access to them easy and secure.
 
-The exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, make the platform interoperable for all relaying parties.
+The interaction between the stakeholders and pools happens via exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, and thus make the platform interoperable for all relaying parties.
 
-Hubjec Plug&Charge solution provides the Certificate pools and Certificate Provisioning Service for publishing certificates and contracts between all ISO 15118 participants.
+The next chapter would define the different pools and processes involved in Hubject's Plug&Charge ecosystem.
 
 ## **System Components**
 
