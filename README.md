@@ -71,16 +71,14 @@ The VDE Application Rule proposes the following sub processes.
 A. Providing root certificates for public charging and contract-based billing
 B. Production of vehicles and storing provisioning certificate
 
-1. Contract conclusion and vehicle assignment
+2. Contract conclusion and vehicle assignment
   A. Conclusion of contract with customer and receiving vehicle certificate from the vehicle certificate pool.
-  B. Providing contract data to the Certificate Provisioning Service
-2. (Periodic) Provisioning of contract data
+  
+3. Providing contract data to the Certificate Provisioning Service
 
-1. Signing contract data and storing in the CCP
+4. Signing contract data and storing in the CCP
 
-1. Installation of contract
-
-1. Providing signed contract data to CPO-backend on request
+5. Providing signed contract data to CPO-backend on request
 
 **Providing Root Certificates for Public Charging and Contract-Based Billing**
 
@@ -146,7 +144,7 @@ The CCP finds the contracts of this EV, verifies the validity of each certificat
 
 ## **Ready to Kickstart**
 Now that you have read the components and processes involved in Plug&Charge, you must be ready to get a feel of being a part of it.
-The Open Plug&Charge will be the start of your journey to the world of ISO 15118. Click on the ([Quick Start Guide](https://github.com/hubject/openPlugnCharge/blob/master/Quick%20Start%20Guide.md)) to get more details on the steps to use the Open Plug& Charge.
+The Open Plug&Charge will be the start of your journey to the world of ISO 15118. Click on the ([Quick Start Guide](https://github.com/hubject/openPlugnCharge/blob/master/Quick%20Start%20Guide.md)) to get more details on the steps to use the Open Plug&Charge.
 
 ## **More Information**
 
