@@ -4,7 +4,7 @@
 ## **Introduction**
 Welcome to Open Plug&Charge, an open platform which would help you get acquainted with Hubject's Plug&Charge ecosystem.
 
-If you here, it is because you are in someway connected to e-mobility. You could be part of an OEM, a Charge Point Operator, an e-mobility Partner or operator, an EV driver or just an e-mobility enthusiast.  
+If you here, it is because you are in someway connected to e-mobility. You could be part of an OEM, a Charge Point Operator, an e-mobility Partner or Service Provider, an EV driver or just an e-mobility enthusiast.  
 
 No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just be following easy steps.
 
