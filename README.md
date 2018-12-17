@@ -37,7 +37,7 @@ The storage of root certificates are executed manually by Hubject administrators
 
 #### Provisioning Certificate Pool – PCP
 
-The Provisioning Certificate Pool (PCP) contains all the Vehicle Provisional certificates. These certificates are stored by the OEM and are accessible to different participants (OEMs and MOs) of ISO 15118 through interface exchanges.The MOs send the PCID of a provisioning certificate issued by the OEM and receives the appropriate provisioning certificate and the corresponding sub-CA certificate chain.
+The Provisioning Certificate Pool (PCP) contains all the Vehicle Provisional certificates. These certificates are stored by the OEM and are accessible to different participants (OEMs and MOs) of ISO 15118 through interface exchanges.The MOs send the PCID (vehicle ID) of a provisioning certificate issued by the OEM and receives the appropriate provisioning certificate and the corresponding sub-CA certificate chain.
 Certificates are checked regularly with automated processes and removed.
 
 #### Certificate Provisioning Service - CPS
@@ -49,7 +49,7 @@ The signed contract data are stored in the contact certificate pool.
 
 The CCP stores the signed contract data of the MOs and provides it to the CPO. The CPO backend can request signed contract data in the form of **certificateIntallationRequest** , which is defined in ISO 15118-2:2014.
 
-By the CPS, signed contract data will be stored in CCP and assigned to their respective PCID. In the CCP, it is possible to store multiple contracts for each car.
+By the CPS, signed contract data will be stored in CCP and assigned to their respective vehicle ID. In the CCP, it is possible to store multiple contracts for each car.
 
 The CCP keeps contracts of each MO separate. The defined access rules prevent access to other MO contracts.
 
@@ -58,7 +58,7 @@ The CCP keeps contracts of each MO separate. The defined access rules prevent ac
 The VDE Application Rule details each process flow for further understanding. The figure below shows the overall process with components and flows, which are based on the VDE Application Rule. Hubject has the below interfaces exchanged between different components.
 
 ![capture](https://user-images.githubusercontent.com/44570304/49576965-b2f18600-f946-11e8-8a8c-8df505f5fda0.PNG)
-Figure 1 – The process of an optimized PKI for the Plug &amp; Charge
+Figure 1 – The process of an optimized PKI for the Plug&Charge
 
 During contract provisioning, several sub processes are also required, which can be divided into four main parts (see Figure 2 – Process map).
 
