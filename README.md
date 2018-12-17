@@ -15,7 +15,7 @@ ISO 15118 standard is a technical standard that provides the necessay informatio
 Hubjects processes and components, which will be described in detail later, are also compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
 
 At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  Certificate Pools for publishing and signing service for trusted exchange.
-The role of the certificate pool is to store certificates (vehicle provisional certificates, contract certificates), making access to them easy and secure.
+The role of the certificate pool is to store certificates (OEM Provisioning certificates, contract certificates), making access to them easy and secure.
 
 The interaction between the stakeholders and pools happens via exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, and thus make the platform interoperable for all relaying parties.
 
@@ -33,7 +33,7 @@ The next chapter would define the different pools and processes involved in Hubj
 
 The Root Certificate Pool contains all the Root certificates in one location and is maintained by Hubject. The pool is used for access of Root certificates which enables validation of certificate chains and authentication of identity by exchange of interfaces, during communication between different participants (V2G, OEM, MO) of ISO 15118.
 The stored root certificates are checked regularly with automated processes and expired or revoked certificates are deleted. 
-The storage of root certificates executed manually by Hubject administrators.
+The storage of root certificates are executed manually by Hubject administrators.
 
 #### Provisioning Certificate Pool – PCP
 
@@ -55,7 +55,7 @@ The CCP keeps contracts of each MO separate. The defined access rules prevent ac
 
 ## **Processes**
 
-The VDE Application Rule details each process flow for further understanding. Figure 1 shows the overall process with components and flows, which are based on the VDE Application Rule.
+The VDE Application Rule details each process flow for further understanding. Figure 1 shows the overall process with components and flows, which are based on the VDE Application Rule. Hubject has the below interfaces exchanged between different components.
 
 ![capture](https://user-images.githubusercontent.com/44570304/49576965-b2f18600-f946-11e8-8a8c-8df505f5fda0.PNG)
 Figure 1 – The process of an optimized PKI for the Plug &amp; Charge
@@ -106,7 +106,7 @@ Figure 4 – Production of vehicles and storing provisioning certificate
 
 This process describes, the conclusion of contract between customer and MO and delivery of OEM provisioning certificate of vehicle to the MO.
 
-The MO must receive the contract information from a customer including the PCID of the vehicle. The PCID must be sent by the MO to the PCP. The PCP delivers OEM provisioning certificate, including the corresponding sub CA chain.
+The MO must receive the contract information from a customer including the details of the vehicle. The PCID (vehicle ID) must be sent by the MO to the PCP. The PCP then delivers OEM provisioning certificate, including the corresponding certificate chain.
 
 After the verifying the authenticity of trust chain with OEM root certificate (which has been received from the Root Certificate Pool), the MO can generate an unique e-mobility account identifier – EMAID for customer and generate contract data with the following parts:
 
@@ -121,7 +121,7 @@ Figure 5 – Conclusion of contract and receiving vehicle certificate from vehic
 
 **Providing Contract Data to Certificate Provisioning Service**
 
-The created contract data must be sent to the CPS for signing purposes.
+The created contract data must be sent to the certificate provisioning service(CPS) for signing purposes.
 
 ![fig6](https://user-images.githubusercontent.com/44570304/48353784-8a040b00-e690-11e8-9a27-7b4f87622503.png)
 
@@ -129,7 +129,7 @@ Figure 6 – Providing contract data to certificate Provisioning Service
 
 **Signing Contract Data and Storing in CCP**
 
-The CPS signs the delivered contract data with from V2G root CA derived private key and stores it in the CCPS for provisioning for the CPO.
+The CPS signs the delivered contract data with a Sub certificate authority created from V2G root CA derived private key and stores it in the CCP for provisioning for the CPO.
 
 ![fig7](https://user-images.githubusercontent.com/44570304/48353790-8c666500-e690-11e8-91ef-73a76deb0e88.png)
 Figure 7 – Signing contract data and storing in CCP
@@ -140,7 +140,7 @@ Figure 7 – Signing contract data and storing in CCP
 
 After a successful handshake between EV and charging device, the EV sends a certificate installation request to the charging device, which will be forwarded via the CPO backend to the CCP.
 
-The CCP finds the contracts of this EV, verifies the validity of each certificate and delivers it back to the CPO backend.
+The CCP finds the contracts of this EV, verifies the validity of each certificate and delivers it to the CPO backend.
 
 ![fig9](https://user-images.githubusercontent.com/44570304/48353796-90928280-e690-11e8-8456-0f8845965356.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
 
