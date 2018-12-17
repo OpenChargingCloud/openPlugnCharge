@@ -4,9 +4,9 @@
 ## **Introduction**
 Welcome to Open Plug&Charge, an open platform which would help you get acquainted with Hubject's Plug&Charge ecosystem.
 
-If you here, it is because you are in someway connected to e-mobility. You could be part of an OEM, a Charge Point Operator, an e-mobility Partner or Service Provider, an EV driver or just an e-mobility enthusiast.  
+If you here, it is because you are in someway connected to e-mobility. You could be part of an OEM, a Charge Point Operator, an e-mobility Operator or Service Provider, an EV driver or just an e-mobility enthusiast.  
 
-No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just be following easy steps.
+No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just by following easy steps.
 
 Plug&Charge is a use-case derived from the technical standard ISO 15118.
 
@@ -15,7 +15,7 @@ ISO 15118 standard is a technical standard that provides the necessay informatio
 Hubjects processes and components, which will be described in detail later, are also compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
 
 At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  Certificate Pools for publishing and signing service for trusted exchange.
-The role of the pools is to store certificates (vehicle provisional, contract), making access to them easy and secure.
+The role of the certificate pool is to store certificates (vehicle provisional certificates, contract certificates), making access to them easy and secure.
 
 The interaction between the stakeholders and pools happens via exchange of interfaces of the Plug&Charge service, which are fully compatible with ISO 15118-2: 2014 and the VDE application rule, and thus make the platform interoperable for all relaying parties.
 
