@@ -10,7 +10,7 @@ No matter who you are, you are welcome to get a feel of what Hubject's Plug&Char
 
 Plug&Charge is a use-case derived from the technical standard ISO 15118.
 
-ISO 15118 standard is a technical standard that provides the necessay information exchange between the EV and the charging infrastructure. Hubject has created its own Plug&Charge solution which consistes of processes and components that make up the Plug&Charge ecosystem.
+ISO 15118 standard is a technical standard that provides the necessay information exchange between the EV and the charging infrastructure. Hubject has created its own Plug&Charge platform which has processes and components that make up the Plug&Charge ecosystem.
 
 Hubjects processes and components, which will be described in detail later, are also compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
 
