@@ -55,7 +55,7 @@ The CCP keeps contracts of each MO separate. The defined access rules prevent ac
 
 ## **Processes**
 
-The VDE Application Rule details each process flow for further understanding. Figure 1 shows the overall process with components and flows, which are based on the VDE Application Rule. Hubject has the below interfaces exchanged between different components.
+The VDE Application Rule details each process flow for further understanding. The figure below shows the overall process with components and flows, which are based on the VDE Application Rule. Hubject has the below interfaces exchanged between different components.
 
 ![capture](https://user-images.githubusercontent.com/44570304/49576965-b2f18600-f946-11e8-8a8c-8df505f5fda0.PNG)
 Figure 1 – The process of an optimized PKI for the Plug &amp; Charge
