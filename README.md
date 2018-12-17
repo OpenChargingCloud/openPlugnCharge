@@ -68,12 +68,12 @@ The VDE Application Rule proposes the following sub processes.
 
 1. Vehicle production and preparation of contract-based billing
 
-1. Providing root certificates for public charging and contract-based billing
-2. Production of vehicles and storing provisioning certificate
+A. Providing root certificates for public charging and contract-based billing
+B. Production of vehicles and storing provisioning certificate
 
 1. Contract conclusion and vehicle assignment
-  1. Conclusion of contract with customer and receiving vehicle certificate from the vehicle certificate pool.
-  2. Providing contract data to the Certificate Provisioning Service
+  A. Conclusion of contract with customer and receiving vehicle certificate from the vehicle certificate pool.
+  B. Providing contract data to the Certificate Provisioning Service
 2. (Periodic) Provisioning of contract data
 
 1. Signing contract data and storing in the CCP
