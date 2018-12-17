@@ -31,7 +31,7 @@ The next chapter would define the different pools and processes involved in Hubj
 #### Root Certificate Pool – RCP
 
 
-The Root Certificate Pool contains all the Root certificates in one location maintained by Hubject. The pool is used for access of Root certificates which enables validation of certificate chains and authentication of identity by exchange of interfaces, during communication between different participants (V2G, OEM, MO) of ISO 15118.
+The Root Certificate Pool contains all the Root certificates in one location and is maintained by Hubject. The pool is used for access of Root certificates which enables validation of certificate chains and authentication of identity by exchange of interfaces, during communication between different participants (V2G, OEM, MO) of ISO 15118.
 The stored root certificates are checked regularly with automated processes and expired or revoked certificates are deleted. 
 The storage of root certificates executed manually by Hubject administrators.
 
