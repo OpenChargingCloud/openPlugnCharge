@@ -68,6 +68,9 @@ The VDE Application Rule proposes the following sub processes.
 
 1. Vehicle production and preparation of contract-based billing
 
+
+
+
 A. Providing root certificates for public charging and contract-based billing
 B. Production of vehicles and storing provisioning certificate
 
