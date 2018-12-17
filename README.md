@@ -8,9 +8,11 @@ If you here, it is because you are in someway connected to e-mobility. You could
 
 No matter who you are, you are welcome to get a feel of what Hubject's Plug&Charge platform does, just be following easy steps.
 
-ISO 15118 standard is a technical standard that provides the necessay information exchange between the EV and the charging infrastructure
+Plug&Charge is a use-case derived from the technical standard ISO 15118.
 
-Hubjects processes and components, which will be described in detail later, are compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
+ISO 15118 standard is a technical standard that provides the necessay information exchange between the EV and the charging infrastructure. Hubject has created its own Plug&Charge solution which consistes of processes and components that make up the Plug&Charge ecosystem.
+
+Hubjects processes and components, which will be described in detail later, are also compliant to the VDE application guide (&quot;VDE Anwendungsregel&quot;)
 
 At the pinnacle of the Plug&charge solution, lies the V2G Root certificate authority (V2G Root CA) which is the trust anchor for all participants of ISO 15118. The Hubject's Plug&Charge ecosystem provides a V2G root CA for the managing of the ISO 15118 certificates and  Certificate Pools for publishing and signing service for trusted exchange.
 The role of the pools is to store certificates (vehicle provisional, contract), making access to them easy and secure.
