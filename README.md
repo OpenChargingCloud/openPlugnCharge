@@ -77,6 +77,7 @@ A. Providing root certificates for public charging and contract-based billing
 B. Production of vehicles and storing provisioning certificate
 
 2. Contract conclusion and vehicle assignment
+
   A. Conclusion of contract with customer and receiving vehicle certificate from the vehicle certificate pool.
   
 3. Providing contract data to the Certificate Provisioning Service
