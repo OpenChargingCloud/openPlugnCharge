@@ -146,7 +146,9 @@ After a successful handshake between EV and charging device, the EV sends a cert
 
 The CCP finds the contracts of this EV, verifies the validity of each certificate and delivers it to the CPO backend.
 
-![fig9](https://user-images.githubusercontent.com/44570304/48353796-90928280-e690-11e8-8456-0f8845965356.png)Figure 8 – Providing signed contract data to CPO backend on requestFigure 8 – Providing signed contract data to CPO backend on request
+![fig9](https://user-images.githubusercontent.com/44570304/48353796-90928280-e690-11e8-8456-0f8845965356.png)
+
+Figure 8 – Providing signed contract data to CPO backend on request
 
 ## **Ready to Kickstart**
 Now that you have read the components and processes involved in Plug&Charge, you must be ready to get a feel of being a part of it.
